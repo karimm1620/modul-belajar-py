@@ -5,6 +5,9 @@
 3. operator
 4. ...
 
+## Setup extension
+Download extension Python dan Jupyter di vscode sebelum mulai.
+
 ## Setup ipynb kernel
 buka salah satu file nya, di kanan atas klik tombol select kernel, akan muncul 2 opsi di dropdown, pilih yang atas, lalu pilih python kernel, setelah itu ikuti step yang dikasih oleh vscode, nantinya akan mendownload kernel tersebut untuk menjalankan code di file .ipynb
 
