@@ -1,27 +1,23 @@
-# Modul Belajar Python 🐍
-
-Repository ini adalah kumpulan materi pembelajaran Python untuk pemula. Semua materi disajikan dalam format Jupyter Notebook yang mudah dipahami dengan penjelasan dalam bahasa Indonesia.
-
-## 📋 Daftar Materi
+# Daftar Materi
 
 ### Materi Dasar
 1. **Variabel dan Tipe Data** - Memahami variabel, integer, float, string, dan boolean
 2. **String dan Manipulasi String** - Indexing, slicing, method string, dan f-string
 3. **Operator** - Operator aritmatika, assignment, perbandingan, logika, dan string
-4. **Input** - Cara menerima input dari user
+4. **Kontrol alur program** - Percabangan (if, elif, else)
+5. **Perulangan** - Perulangan (for, while)
+6. **Struktur Data** - List, Tuple, Set, dan Dictionary
+7. **Function**
+8. **Penanganan Error** - Error Handling
+9. **File I/O (Input/Output)** - File Handling
 
 ### Roadmap Materi Ke Depan
-- [ ] Percabangan (if, elif, else)
-- [ ] Perulangan (for, while)
-- [ ] List, Tuple, Set, dan Dictionary
-- [ ] Function
-- [ ] Error Handling
 - [ ] Module dan Package
 - [ ] File Handling
 - [ ] Object-Oriented Programming
 - [ ] Mini Project
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.11+ sudah terinstall di komputer Anda
@@ -77,7 +73,7 @@ Jika Anda sudah meng-clone repository ini sebelumnya, untuk update ke versi terb
 git pull origin main
 ```
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```
 modul-belajar-py/
@@ -87,11 +83,18 @@ modul-belajar-py/
 │   ├── variabel_dan_tipe_data.ipynb  # Materi 1: Variabel dan Tipe Data
 │   ├── str_dn_manipulasi_str.ipynb   # Materi 2: String dan Manipulasi String
 │   ├── operator.ipynb                # Materi 3: Operator
-│   └── input.py                      # Materi 4: Input
+|   ├── kotrol_alur_program.ipynb     # Materi 4: percabangan (if-else)
+│   ├── perulangan.ipynb              # Materi 5: Perulangan (while, for)
+│   ├── struktur_data.ipynb           # Materi 6: Struktur data (List, Tuple, Set, dan Dictionary)
+│   ├── function.ipynb                # Materi 7: Function
+│   ├── penanganan_error.ipynb        # Materi 8: Penanganan Error (Error Handling)
+│   ├── file_input_output.ipynb       # Materi 9: File I/O (Input/Output) (File Handling)
+|   └── ...
+|                    
 └── ...
 ```
 
-## 💡 Cara Belajar
+## Cara Belajar
 
 1. **Buka notebook** sesuai urutan materi
 2. **Baca penjelasan** di setiap markdown cell
@@ -100,26 +103,10 @@ modul-belajar-py/
 5. **Eksperimen** dengan mengubah nilai atau menulis kode baru
 6. **Ulangi** hingga Anda benar-benar memahami konsepnya
 
-### Tips Belajar
-
-- 📖 Jangan hanya membaca, tapi praktek langsung
-- 🧪 Coba modifikasi contoh kode dengan nilai yang berbeda
-- 📝 Catat hal-hal penting di sticky note atau notebook pribadi
-- ❓ Jika ada yang tidak dipahami, coba jalankan kode dan lihat hasilnya
-- 🔄 Ulangi materi yang sudah dipelajari untuk memperkuat pemahaman
-
-## 🤝 Kontribusi
-
-Jika Anda menemukan kesalahan, typo, atau ingin memberikan saran, silakan buat issue atau pull request.
-
-## 📝 License
-
-Repository ini bebas digunakan untuk keperluan pembelajaran pribadi.
-
-## ❓ FAQ
+## FAQ
 
 ### Q: Apakah saya perlu install extension di VSCode?
-**A:** Opsional. Jika Anda ingin membuka notebook di VSCode, install extension Python dan Jupyter. Jika tidak, gunakan Jupyter Notebook dari terminal.
+**A:** Opsional. Jika Anda ingin membuka notebook di VSCode, install extension Python dan Jupyter. Jika tidak, gunakan Jupyter Notebook dari terminal. Atau bisa juga menggunakan google collab di browser
 
 ### Q: Bagaimana jika saya menggunakan Python 2?
 **A:** Materi ini menggunakan Python 3. Pastikan Python versi 3.11 atau lebih tinggi sudah terinstall.
@@ -130,11 +117,6 @@ Repository ini bebas digunakan untuk keperluan pembelajaran pribadi.
 python materi_dasar/input.py
 ```
 
-### Q: Apakah ada video tutorial?
-**A:** Untuk sekarang belum ada, tapi setiap materi sudah disertai dengan penjelasan lengkap dan contoh kode.
-
 ---
 
 **Happy Learning! 🎉**
-
-Jika Anda merasa repository ini membantu, jangan lupa untuk star ⭐ dan share ke teman-teman Anda!
