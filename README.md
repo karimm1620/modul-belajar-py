@@ -13,7 +13,6 @@
 
 ### Roadmap Materi Ke Depan
 - [ ] Module dan Package
-- [ ] File Handling
 - [ ] Object-Oriented Programming
 - [ ] Mini Project
 
